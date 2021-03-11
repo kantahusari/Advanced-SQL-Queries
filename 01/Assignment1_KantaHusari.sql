@@ -1,8 +1,3 @@
-/*
-student_name: kanta husari
-student_number: 101217294
-*/
-
 /*1*/
 select category_name, count(product_id) as count, max(list_price) as mostexpensive 
 from categories join products 
